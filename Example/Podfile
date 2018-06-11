@@ -1,0 +1,7 @@
+use_frameworks!
+
+target 'SimplePlayerViewController_Example' do
+  pod 'SimplePlayerViewController', :path => '../'
+
+
+end

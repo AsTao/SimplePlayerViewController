@@ -1,0 +1,6 @@
+framework module Pods_SimplePlayerViewController_Example {
+  umbrella header "Pods-SimplePlayerViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

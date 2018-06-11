@@ -1,0 +1,16 @@
+PODS:
+  - SimplePlayerViewController (0.0.1)
+
+DEPENDENCIES:
+  - SimplePlayerViewController (from `../`)
+
+EXTERNAL SOURCES:
+  SimplePlayerViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimplePlayerViewController: d0b7e833c1f7c71aebc2e5187ae35a110b4e0d40
+
+PODFILE CHECKSUM: a555ed5a79d2a2c45a53888eb2517a12cc086371
+
+COCOAPODS: 1.4.0

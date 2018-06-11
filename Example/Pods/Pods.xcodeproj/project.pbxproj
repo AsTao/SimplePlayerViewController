@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C3B2750AC9D1B38BA9793373B5AB58 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0315D493DD4A687B22AAC59B6C3FF1AC /* Resource.bundle */; };
+		3B446CF835B822FECD4711AC92EB6B8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		54DEA2D6155734D13994C88766A7A8B5 /* SimplePlaybackControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DD0EFD9BC599CC4E0271EECEA601A /* SimplePlaybackControlsView.swift */; };
+		633FD0F0D1767B411E858AA79C147C5B /* SimplePlayerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C21DCA77F87A238C7AF85C85AECD0BEC /* SimplePlayerViewController-dummy.m */; };
+		67A9ACECE295AE9E92B204AADDAAD9DD /* SimplePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C3E8930A46A399581279F1F2454B8 /* SimplePlayerViewController.swift */; };
+		832A493B061A282A451934EBD59C6CA7 /* SimplePlayerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0FB6CE81406A535A31AFDE48B2E739 /* SimplePlayerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D77979494D0A9157F3ACE8E7BE7D36C /* Pods-SimplePlayerViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5074502A3F77A1A3849DA271EBD83511 /* Pods-SimplePlayerViewController_Example-dummy.m */; };
+		DC1C7087287791DEB123AF4489B4E07E /* Pods-SimplePlayerViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9D63A783EDE6E343AD27D67920F91C /* Pods-SimplePlayerViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1FED4CF90C11BD092B5D89627459524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F3E90E2944CD4CEDB1454F349E98C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A69687671C1C9BA9A0D122F6C8F2306;
+			remoteInfo = SimplePlayerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0315D493DD4A687B22AAC59B6C3FF1AC /* Resource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Resource.bundle; path = SimplePlayerViewController/Resource.bundle; sourceTree = "<group>"; };
+		047C3E8930A46A399581279F1F2454B8 /* SimplePlayerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimplePlayerViewController.swift; path = SimplePlayerViewController/SimplePlayerViewController.swift; sourceTree = "<group>"; };
+		0B15114EAEB3DF02D70D0C60E36FEF16 /* SimplePlayerViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SimplePlayerViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		42CE7543BCA646E0C5880AE66F2A44F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4A67A9B28D3A5C10B8DF6CE54E9FBCA0 /* Pods-SimplePlayerViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePlayerViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5074502A3F77A1A3849DA271EBD83511 /* Pods-SimplePlayerViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimplePlayerViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		717CCB205B8CA3D691CF212039DAB7DF /* Pods_SimplePlayerViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimplePlayerViewController_Example.framework; path = "Pods-SimplePlayerViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		833E1CA0EA2C7951DB5DF54E62470898 /* SimplePlayerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimplePlayerViewController.framework; path = SimplePlayerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A0FB6CE81406A535A31AFDE48B2E739 /* SimplePlayerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimplePlayerViewController-umbrella.h"; sourceTree = "<group>"; };
+		9CDDBE5EC2B3292CB59FE6A0EEB4762D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31DD0EFD9BC599CC4E0271EECEA601A /* SimplePlaybackControlsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimplePlaybackControlsView.swift; path = SimplePlayerViewController/SimplePlaybackControlsView.swift; sourceTree = "<group>"; };
+		ABFE6C30BB25792A55ADEEBC582B6B6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B6FBF72120A24681CFC2FE90E4F67808 /* Pods-SimplePlayerViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimplePlayerViewController_Example.modulemap"; sourceTree = "<group>"; };
+		B7832E3B303D6B74AB766D9611987D0D /* Pods-SimplePlayerViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimplePlayerViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9913355F586CBEE1F6553B0FCB569B0 /* SimplePlayerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimplePlayerViewController.modulemap; sourceTree = "<group>"; };
+		BA9D63A783EDE6E343AD27D67920F91C /* Pods-SimplePlayerViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimplePlayerViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		C21DCA77F87A238C7AF85C85AECD0BEC /* SimplePlayerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimplePlayerViewController-dummy.m"; sourceTree = "<group>"; };
+		C68C7ED85284D6E8D989AD4AFB553796 /* SimplePlayerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimplePlayerViewController-prefix.pch"; sourceTree = "<group>"; };
+		CB990458ECFF1065442025CB9383DC5A /* Pods-SimplePlayerViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePlayerViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D89FD00DC64E0A7A0B21316C0DEDF7C9 /* SimplePlayerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimplePlayerViewController.xcconfig; sourceTree = "<group>"; };
+		E116F6BB5A9353B959C31672551B79DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E131F2BDE7F3E1AA9BAA5E5A1C0AD4A9 /* Pods-SimplePlayerViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimplePlayerViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E409A4F44E2D2CDD750B95FDDA756179 /* Pods-SimplePlayerViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimplePlayerViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		F8C9DD8936E1459C05290640471AEC8C /* Pods-SimplePlayerViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePlayerViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A52C508F5EA1B049FCC2E1943CF07B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B446CF835B822FECD4711AC92EB6B8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E8DA10B7D73139AC5C8273A376037F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FED4CF90C11BD092B5D89627459524 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17BF33E5352889B4408BC97CA5BE6BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				717CCB205B8CA3D691CF212039DAB7DF /* Pods_SimplePlayerViewController_Example.framework */,
+				833E1CA0EA2C7951DB5DF54E62470898 /* SimplePlayerViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BA9682FDFD1F2D8A761187025002F3B /* Pods-SimplePlayerViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9CDDBE5EC2B3292CB59FE6A0EEB4762D /* Info.plist */,
+				B6FBF72120A24681CFC2FE90E4F67808 /* Pods-SimplePlayerViewController_Example.modulemap */,
+				B7832E3B303D6B74AB766D9611987D0D /* Pods-SimplePlayerViewController_Example-acknowledgements.markdown */,
+				CB990458ECFF1065442025CB9383DC5A /* Pods-SimplePlayerViewController_Example-acknowledgements.plist */,
+				5074502A3F77A1A3849DA271EBD83511 /* Pods-SimplePlayerViewController_Example-dummy.m */,
+				E131F2BDE7F3E1AA9BAA5E5A1C0AD4A9 /* Pods-SimplePlayerViewController_Example-frameworks.sh */,
+				E409A4F44E2D2CDD750B95FDDA756179 /* Pods-SimplePlayerViewController_Example-resources.sh */,
+				BA9D63A783EDE6E343AD27D67920F91C /* Pods-SimplePlayerViewController_Example-umbrella.h */,
+				F8C9DD8936E1459C05290640471AEC8C /* Pods-SimplePlayerViewController_Example.debug.xcconfig */,
+				4A67A9B28D3A5C10B8DF6CE54E9FBCA0 /* Pods-SimplePlayerViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-SimplePlayerViewController_Example";
+			path = "Target Support Files/Pods-SimplePlayerViewController_Example";
+			sourceTree = "<group>";
+		};
+		699CB800092804723B085C53E39ACD8F /* SimplePlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A31DD0EFD9BC599CC4E0271EECEA601A /* SimplePlaybackControlsView.swift */,
+				047C3E8930A46A399581279F1F2454B8 /* SimplePlayerViewController.swift */,
+				F55F7C3AD5FF3483EBE22736E27B9114 /* Pod */,
+				B161862C6D275447B770113C442BF9C6 /* Resources */,
+				C3261EB43BF12A2AC3EDFC17EBB8D510 /* Support Files */,
+			);
+			name = SimplePlayerViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7615CA9ED8B11896FA397C0D2F817F68 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				699CB800092804723B085C53E39ACD8F /* SimplePlayerViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7615CA9ED8B11896FA397C0D2F817F68 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				17BF33E5352889B4408BC97CA5BE6BF6 /* Products */,
+				8EE216B3909B948F2DA486D8566EDA10 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EE216B3909B948F2DA486D8566EDA10 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BA9682FDFD1F2D8A761187025002F3B /* Pods-SimplePlayerViewController_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B161862C6D275447B770113C442BF9C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0315D493DD4A687B22AAC59B6C3FF1AC /* Resource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3261EB43BF12A2AC3EDFC17EBB8D510 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E116F6BB5A9353B959C31672551B79DE /* Info.plist */,
+				B9913355F586CBEE1F6553B0FCB569B0 /* SimplePlayerViewController.modulemap */,
+				D89FD00DC64E0A7A0B21316C0DEDF7C9 /* SimplePlayerViewController.xcconfig */,
+				C21DCA77F87A238C7AF85C85AECD0BEC /* SimplePlayerViewController-dummy.m */,
+				C68C7ED85284D6E8D989AD4AFB553796 /* SimplePlayerViewController-prefix.pch */,
+				9A0FB6CE81406A535A31AFDE48B2E739 /* SimplePlayerViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimplePlayerViewController";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F55F7C3AD5FF3483EBE22736E27B9114 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				42CE7543BCA646E0C5880AE66F2A44F4 /* LICENSE */,
+				ABFE6C30BB25792A55ADEEBC582B6B6D /* README.md */,
+				0B15114EAEB3DF02D70D0C60E36FEF16 /* SimplePlayerViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D2EC912C2C7D172501EDE203215BBF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832A493B061A282A451934EBD59C6CA7 /* SimplePlayerViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD46B546BFDE87E244862347859F67A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1C7087287791DEB123AF4489B4E07E /* Pods-SimplePlayerViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A69687671C1C9BA9A0D122F6C8F2306 /* SimplePlayerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4982AFD04D328050818CBF2963606E9A /* Build configuration list for PBXNativeTarget "SimplePlayerViewController" */;
+			buildPhases = (
+				5B064F27D05742DCDBD5F7EE2A7C7D8E /* Sources */,
+				56E8DA10B7D73139AC5C8273A376037F /* Frameworks */,
+				18FF2BFABD534BDA4396D0DE3517B29F /* Resources */,
+				1D2EC912C2C7D172501EDE203215BBF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePlayerViewController;
+			productName = SimplePlayerViewController;
+			productReference = 833E1CA0EA2C7951DB5DF54E62470898 /* SimplePlayerViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A06E405B0FD90A206654BB9CB6CA77BB /* Pods-SimplePlayerViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13575FC6165BCC0CB9B958F03B911172 /* Build configuration list for PBXNativeTarget "Pods-SimplePlayerViewController_Example" */;
+			buildPhases = (
+				3D6464D0881BE9AF31E07088DEB1F5F8 /* Sources */,
+				1A52C508F5EA1B049FCC2E1943CF07B8 /* Frameworks */,
+				6AD46B546BFDE87E244862347859F67A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A06FBB1CC284C5F29A1054E5D45C33D /* PBXTargetDependency */,
+			);
+			name = "Pods-SimplePlayerViewController_Example";
+			productName = "Pods-SimplePlayerViewController_Example";
+			productReference = 717CCB205B8CA3D691CF212039DAB7DF /* Pods_SimplePlayerViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 17BF33E5352889B4408BC97CA5BE6BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A06E405B0FD90A206654BB9CB6CA77BB /* Pods-SimplePlayerViewController_Example */,
+				4A69687671C1C9BA9A0D122F6C8F2306 /* SimplePlayerViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FF2BFABD534BDA4396D0DE3517B29F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C3B2750AC9D1B38BA9793373B5AB58 /* Resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D6464D0881BE9AF31E07088DEB1F5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D77979494D0A9157F3ACE8E7BE7D36C /* Pods-SimplePlayerViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B064F27D05742DCDBD5F7EE2A7C7D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DEA2D6155734D13994C88766A7A8B5 /* SimplePlaybackControlsView.swift in Sources */,
+				633FD0F0D1767B411E858AA79C147C5B /* SimplePlayerViewController-dummy.m in Sources */,
+				67A9ACECE295AE9E92B204AADDAAD9DD /* SimplePlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A06FBB1CC284C5F29A1054E5D45C33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimplePlayerViewController;
+			target = 4A69687671C1C9BA9A0D122F6C8F2306 /* SimplePlayerViewController */;
+			targetProxy = 6F3E90E2944CD4CEDB1454F349E98C06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01D927234CEAF24693BDE809C39F737B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A67A9B28D3A5C10B8DF6CE54E9FBCA0 /* Pods-SimplePlayerViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePlayerViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePlayerViewController_Example/Pods-SimplePlayerViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimplePlayerViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11BCF094EBB77DB1EF03693EE289DE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D89FD00DC64E0A7A0B21316C0DEDF7C9 /* SimplePlayerViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimplePlayerViewController/SimplePlayerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimplePlayerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimplePlayerViewController/SimplePlayerViewController.modulemap";
+				PRODUCT_NAME = SimplePlayerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BFD85782F63B8C6EC6D8AAC1A62ADF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D89FD00DC64E0A7A0B21316C0DEDF7C9 /* SimplePlayerViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimplePlayerViewController/SimplePlayerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimplePlayerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimplePlayerViewController/SimplePlayerViewController.modulemap";
+				PRODUCT_NAME = SimplePlayerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C08B7864C1928524D7E8CE1CAF5E3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C9DD8936E1459C05290640471AEC8C /* Pods-SimplePlayerViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePlayerViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePlayerViewController_Example/Pods-SimplePlayerViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimplePlayerViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13575FC6165BCC0CB9B958F03B911172 /* Build configuration list for PBXNativeTarget "Pods-SimplePlayerViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C08B7864C1928524D7E8CE1CAF5E3F9 /* Debug */,
+				01D927234CEAF24693BDE809C39F737B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4982AFD04D328050818CBF2963606E9A /* Build configuration list for PBXNativeTarget "SimplePlayerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BFD85782F63B8C6EC6D8AAC1A62ADF8 /* Debug */,
+				11BCF094EBB77DB1EF03693EE289DE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

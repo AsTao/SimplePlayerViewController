@@ -1,0 +1,6 @@
+framework module SimplePlayerViewController {
+  umbrella header "SimplePlayerViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
