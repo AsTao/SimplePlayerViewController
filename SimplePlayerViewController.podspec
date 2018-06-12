@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   s.resources = 'SimplePlayerViewController/Resource.bundle'
   s.source_files = 'SimplePlayerViewController/*'
-  
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
+  s.swift_version = '4.1'
 
 end

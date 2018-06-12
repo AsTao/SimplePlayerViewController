@@ -23,7 +23,7 @@ public class SimplePlayerViewController: UIViewController {
     
     lazy var playerLayer: AVPlayerLayer = {
         let layer = AVPlayerLayer()
-        layer.videoGravity = AVLayerVideoGravity.resizeAspectFill
+        layer.videoGravity = .resizeAspectFill
         layer.contentsScale = UIScreen.main.scale
         layer.frame = self.view.bounds
         self.view.layer.addSublayer(layer)
